@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IplEcommerce.Domain", "src\Core\IplEcommerce.Domain\IplEcommerce.Domain.csproj", "{4BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IplEcommerce.Application", "src\Core\IplEcommerce.Application\IplEcommerce.Application.csproj", "{5BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IplEcommerce.Infrastructure", "src\Infrastructure\IplEcommerce.Infrastructure\IplEcommerce.Infrastructure.csproj", "{6BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IplEcommerce.API", "src\Presentation\IplEcommerce.API\IplEcommerce.API.csproj", "{7BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{8BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IplEcommerce.Tests", "src\Tests\IplEcommerce.Tests\IplEcommerce.Tests.csproj", "{4A313FF5-D5C7-5816-7808-41AC3C66493C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A313FF5-D5C7-5816-7808-41AC3C66493C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A313FF5-D5C7-5816-7808-41AC3C66493C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A313FF5-D5C7-5816-7808-41AC3C66493C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A313FF5-D5C7-5816-7808-41AC3C66493C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {8BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+		{2BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {8BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+		{3BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {8BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+		{4BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {1BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+		{5BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {1BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+		{6BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {2BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+		{7BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E} = {3BB1F8F7-9F5E-4A5B-8F5E-9F5E4A5B8F5E}
+	EndGlobalSection
+EndGlobal
